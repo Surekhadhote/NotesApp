@@ -7,12 +7,16 @@ import android.os.Bundle;
 
 public class MyNotesActivity extends AppCompatActivity {
 
+
+    String fullName;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_my_notes);
 
         Intent intent = getIntent();
-        intent.getStringExtra("full_name");
+        fullName = intent.getStringExtra("full_name");
+        getActionBar().setTitle(fullName);
     }
 }
