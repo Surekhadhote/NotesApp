@@ -47,8 +47,11 @@
             </intent-filter>
         </activity>
         <activity android:name=".view.MainActivity" />
-        <activity android:name=".view.MyNotesActivity" />
-        <activity android:name=".view.DetailActivity" />
+        <activity android:name=".view.MyNotesActivity"></activity >
+        <activity android:name=".view.DetailActivity">
+
+        </activity>
+
         <activity android:name=".view.LoginActivity"/>
         <activity android:name=".view.AddNotesActivity" />
     </application>

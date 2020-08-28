@@ -2,6 +2,7 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
+    android:background="#FFFFFF"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_marginTop="16dp"
     android:orientation="vertical">
@@ -10,15 +11,21 @@
         android:layout_width="0dp"
         android:id="@+id/textViewCamera"
         android:text="Camera"
+        android:textStyle="italic"
         android:layout_height="wrap_content"
+        android:textAlignment="center"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"/>
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginLeft="16dp"
+        android:gravity="center_horizontal" />
 
     <TextView
         android:layout_width="0dp"
         android:text="Gallery"
+        android:textAlignment="center"
+        android:textStyle="italic"
         android:layout_height="wrap_content"
         android:id="@+id/textViewGallery"
         android:layout_marginTop="16dp"
@@ -26,6 +33,7 @@
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         app:layout_constraintEnd_toEndOf="@id/textViewCamera"
         app:layout_constraintStart_toStartOf="@id/textViewCamera"
-        app:layout_constraintTop_toBottomOf="@id/textViewCamera"/>
+        app:layout_constraintTop_toBottomOf="@id/textViewCamera"
+        android:gravity="center_horizontal" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
