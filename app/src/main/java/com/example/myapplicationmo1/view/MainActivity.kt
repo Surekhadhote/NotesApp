@@ -1,7 +1,9 @@
-package com.example.myapplicationmo1
+package com.example.myapplicationmo1.view
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity
+import androidx.multidex.MultiDexApplication
+import com.example.myapplicationmo1.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

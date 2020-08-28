@@ -1,4 +1,4 @@
-package com.example.myapplicationmo1
+package com.example.myapplicationmo1.view
 
 import android.content.Context
 import android.content.Intent
@@ -7,7 +7,12 @@ import android.os.Bundle
 import android.view.View
 import android.widget.Button
 import android.widget.EditText
+import android.widget.Toast
 import androidx.appcompat.app.AppCompatActivity
+import com.example.myapplicationmo1.utils.AppConstant
+import com.example.myapplicationmo1.utils.PrefConstant
+import com.example.myapplicationmo1.R
+import com.example.myapplicationmo1.utils.StoreSession
 
 class LoginActivity : AppCompatActivity() {
     lateinit var editTextFullName:EditText
@@ -23,7 +28,7 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun setupSharedPreference() {
-       sharedPreferences = getSharedPreferences(PrefConstant.SHARED_PREFERENCE_NAME, Context.MODE_PRIVATE)
+       StoreSession.init(this)
     }
 
     private fun bindViews() {
@@ -35,13 +40,14 @@ class LoginActivity : AppCompatActivity() {
                 val fullName = editTextFullName.text.toString()
                 val userName = editTextUserName.text.toString()
                 if(fullName.isNotEmpty() && userName.isNotEmpty()){
-                   val intent = Intent(this@LoginActivity,MyNotesActivity::class.java)
+                   val intent = Intent(this@LoginActivity, MyNotesActivity::class.java)
                     intent.putExtra(AppConstant.Full_Name,fullName)
                     startActivity(intent)
                     saveFullName(fullName)
                     saveLoginState()
                 }else{
-
+                      val toast = Toast.makeText(this@LoginActivity,"Full name and User name Required",Toast.LENGTH_SHORT)
+                    toast.show()
                 }
             }
 
@@ -50,14 +56,16 @@ class LoginActivity : AppCompatActivity() {
     }
 
     private fun saveLoginState() {
-        editer = sharedPreferences.edit()
-        editer.putBoolean(PrefConstant.IS_LOGGED_IN,true)
-        editer.apply()
+        StoreSession.write(PrefConstant.IS_LOGGED_IN,true)
+       // editer = sharedPreferences.edit()
+      //  editer.putBoolean(PrefConstant.IS_LOGGED_IN,true)
+        //editer.apply()
     }
 
     private fun saveFullName(fullName: String) {
-        editer = sharedPreferences.edit()
-        editer.putString(PrefConstant.FULL_NAME,fullName)
-
+        StoreSession.write(PrefConstant.FULL_NAME,fullName)
+        //editer = sharedPreferences.edit()
+       // editer.putString(PrefConstant.FULL_NAME,fullName)
+        //editer.apply()
     }
 }

@@ -1,11 +1,10 @@
-package com.example.myapplicationmo1
+package com.example.myapplicationmo1.view
 
 import android.os.Bundle
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
-import com.example.myapplicationmo1.AppConstant
+import com.example.myapplicationmo1.utils.AppConstant
 import com.example.myapplicationmo1.R
-import kotlinx.android.synthetic.main.activity_detail.*
 
 class DetailActivity : AppCompatActivity(){
     val TAG = "DetailActivity"

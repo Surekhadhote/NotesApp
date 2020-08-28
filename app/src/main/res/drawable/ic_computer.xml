@@ -1,0 +1,15 @@
+<vector android:height="24dp" android:viewportHeight="512"
+    android:viewportWidth="512" android:width="24dp" xmlns:android="http://schemas.android.com/apk/res/android">
+    <path android:fillColor="#a0c8ff" android:pathData="m216,436h80v66h-80z"/>
+    <path android:fillColor="#fff" android:pathData="m376,116h60c11.046,0 20,8.954 20,20v280c0,11.046 -8.954,20 -20,20h-360c-11.046,0 -20,-8.954 -20,-20v-280c0,-11.046 8.954,-20 20,-20h60"/>
+    <path android:fillColor="#ccf5fc" android:pathData="m456,136v220h-400v-220c0,-11.05 8.95,-20 20,-20h360c11.05,0 20,8.95 20,20z"/>
+    <path android:fillColor="#bfdbff" android:pathData="m274,406h-36c-5.523,0 -10,-4.477 -10,-10s4.477,-10 10,-10h36c5.523,0 10,4.477 10,10s-4.477,10 -10,10z"/>
+    <path android:fillColor="#fff" android:pathData="m376,70v240h-240v-300h180z"/>
+    <path android:fillColor="#ccf5fc" android:pathData="m376,70h-60v-60"/>
+    <path android:fillColor="#ffee80" android:pathData="m196,260c-11.046,0 -20,-8.954 -20,-20v-40c0,-11.046 8.954,-20 20,-20 11.046,0 20,8.954 20,20v40c0,11.046 -8.954,20 -20,20z"/>
+    <path android:fillColor="#7dd9c2" android:pathData="m256,260c-11.046,0 -20,-8.954 -20,-20v-80c0,-11.046 8.954,-20 20,-20 11.046,0 20,8.954 20,20v80c0,11.046 -8.954,20 -20,20z"/>
+    <path android:fillColor="#ff9eb1" android:pathData="m316,260c-11.046,0 -20,-8.954 -20,-20v-20c0,-11.046 8.954,-20 20,-20 11.046,0 20,8.954 20,20v20c0,11.046 -8.954,20 -20,20z"/>
+    <path android:fillColor="#dfedff" android:pathData="m216,70h-36c-5.523,0 -10,-4.477 -10,-10s4.477,-10 10,-10h36c5.523,0 10,4.477 10,10s-4.477,10 -10,10z"/>
+    <path android:fillColor="#dfedff" android:pathData="m250,110h-70c-5.523,0 -10,-4.477 -10,-10s4.477,-10 10,-10h70c5.523,0 10,4.477 10,10s-4.477,10 -10,10z"/>
+    <path android:fillColor="#60a4ff" android:pathData="m436,106h-50v-36c0,-2.652 -1.054,-5.196 -2.929,-7.071l-60,-60c-1.875,-1.875 -4.419,-2.929 -7.071,-2.929h-180c-5.523,0 -10,4.477 -10,10v96h-50c-16.542,0 -30,13.458 -30,30v280c0,16.542 13.458,30 30,30h130v46h-30c-5.523,0 -10,4.477 -10,10s4.477,10 10,10h160c5.523,0 10,-4.477 10,-10s-4.477,-10 -10,-10h-30v-46h130c16.542,0 30,-13.458 30,-30v-280c0,-16.542 -13.458,-30 -30,-30zM326,34.142 L351.858,60h-25.858zM146,20h160v50c0,5.523 4.477,10 10,10h50v220h-220zM76,126h50v184c0,5.523 4.477,10 10,10h240c5.523,0 10,-4.477 10,-10v-184h50c5.514,0 10,4.486 10,10v210h-380v-210c0,-5.514 4.486,-10 10,-10zM286,492h-60v-46h60zM436,426h-360c-5.514,0 -10,-4.486 -10,-10v-50h380v50c0,5.514 -4.486,10 -10,10z"/>
+</vector>
