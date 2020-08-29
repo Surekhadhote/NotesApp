@@ -17,9 +17,9 @@
         android:layout_marginRight="24dp"
         android:layout_marginBottom="32dp"
         android:gravity="center_horizontal"
-        android:text="Add Notes"
+        android:text="@string/add_note1"
         android:textAlignment="center"
-        android:textSize="20dp"
+        android:textSize="20sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -39,7 +39,7 @@
         android:layout_marginEnd="8dp"
         android:layout_marginTop="8dp"
         app:layout_constraintTop_toBottomOf="@+id/textView"
-        android:hint="Title">
+        android:hint="@string/title1">
 
 
     <com.google.android.material.textfield.TextInputEditText
@@ -58,7 +58,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginTop="8dp"
-        android:hint="Description"
+        android:hint="@string/description1"
         app:layout_constraintEnd_toEndOf="@+id/container_title"
         app:layout_constraintStart_toStartOf="@+id/container_title"
         app:layout_constraintTop_toBottomOf="@+id/container_title">
@@ -79,7 +79,7 @@
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginTop="8dp"
-        android:text="Submit"
+        android:text="@string/submit"
         app:layout_constraintEnd_toEndOf="@+id/container_description"
         app:layout_constraintStart_toStartOf="@+id/container_description"
         app:layout_constraintTop_toBottomOf="@+id/container_description" />

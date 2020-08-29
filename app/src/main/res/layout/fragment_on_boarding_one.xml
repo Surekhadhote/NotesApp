@@ -13,7 +13,7 @@
         android:id="@+id/textViewFirst"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Your Own Todo Notes App"
+        android:text="@string/your_own_todo_notes_app"
         android:textColor="@android:color/white"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
         android:textStyle="bold"
@@ -30,7 +30,7 @@
         android:layout_marginLeft="324dp"
         android:layout_marginTop="324dp"
         android:layout_marginBottom="32dp"
-        android:text="Next"
+        android:text="@string/next"
         android:textColor="@android:color/white"
         android:id="@+id/textViewNext"
         android:textAppearance="@style/TextAppearance.AppCompat.Large"
@@ -38,7 +38,8 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.78"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toBottomOf="@+id/textView2"
+        tools:ignore="UnknownId" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -48,14 +49,15 @@
         android:src="@drawable/ic_checklist"
         app:layout_constraintBottom_toTopOf="@+id/textViewFirst"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent" />
+        app:layout_constraintStart_toStartOf="parent"
+        android:contentDescription="@string/todo2" />
 
     <TextView
         android:id="@+id/textView3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="20dp"
-        android:text="Create your own Todo for the day "
+        android:text="@string/create_your_own_todo_for_the_day"
         android:textColor="@android:color/white"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
