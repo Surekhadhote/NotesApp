@@ -1,4 +1,5 @@
-Notes App
+
+     **Notes App
 
 Problem Statement:
 To deal with keeping a proper track of daily tasks and check their progress.Mobile Application can be used effectively for this job as they are widely used and are known for easy access.
