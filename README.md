@@ -1,5 +1,5 @@
 
-     **Notes App
+     Notes App
 
 Problem Statement:
 To deal with keeping a proper track of daily tasks and check their progress.Mobile Application can be used effectively for this job as they are widely used and are known for easy access.
@@ -19,10 +19,12 @@ ToDo List App is a kind of app that generally used to maintain our day-to-day ta
 
 
 
+
+---------------------------------------------------------------------------------------------------------------
 Features :
-Light weight and Simple UI
-Can add images with notes
-Auto Delete Tasks under 15 min if Checked
+* Light weight and Simple UI
+* Can add images with notes
+* Auto Delete Tasks under 15 min if Checked
 
 
 
